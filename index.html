@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -43,7 +44,32 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter CSS notes here.</li>
+          <li>Cascading Style Sheets (CSS): a programming language used by devs to define how webpage content is presented to users. This includes colors, aesthetics, visual layout, and organization.</li>
+          <br>
+          <li>There are three ways to style a webpage using CSS:
+        <br>
+            1. Inline CSS: Used when you want to style an element directly in the HTML file. Inline styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only. Useful for quick + permanent changes but less flexible than the other style sheets because they must be edited individually.
+            <br>
+            2. Internal style sheet: Contains CSS rules for the webpage in the head section of HTML. The rules only apply to that page. CSS classes and IDs can be used to style multiple elements in the page code. To embed an entire stylesheet in the HTML file, we use a 'style' element in the head element.
+            <br>
+            3. External style sheet: The most common way to style a webpage. Allows devs to keep all their CSS rules in a separate file. We link a file with an external sheet with a 'link' element placed in the HTML head element.
+          </li> <br>
+          <li>Separation of concerns: refers to separating code into different files based on use, as is the case with the external CSS style sheet.</li>
+          <br>
+          <li>A selector defines the element or attributes to  which the rules/declarations will apply.</li>
+          <li>Declarations have two important components: property and value. (ex. in 'color: blue;' color is the property and blue is the value.</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <br>
+          <li>CSS box model: Every HTML element is a box; each box consists of margins outside the element, and the element's borders, padding, and content.</li>
+          <br>
+          <li>The * symbol applies a rule to all the elements visible on the page.</li>
+          <li>Do Not Repeat Yourself (DRY) is a coding principle that encourages devs to reuse or share pieces of code in order to reduce the number of lines of code that need to be written or maintained. For instance, we can combine two selectors into a single CSS rule with a comma, and declarations will affect both selectors.</li>
+          <li>Within a link element, a 'rel' attribute specifies the relationship between the current document and the linked doc resource.</li>
+          <li>Within a link element, the 'href' attribute specifies the location (URL) of the external resource.</li>
+          <br>
+          <li>Class attributes allow us to share a CSS rule to any element by assigning the rule to a class attribute with a class selector. Then the class attribute can be assigned to the element in HTML, enabling us to freely choose which elements will be assigned the CSS rule.</li>
+          <li>A class selector is preceded by a period like this: .card </li>
         </ul>
       </section>
       <section class="card" id="git-section">
